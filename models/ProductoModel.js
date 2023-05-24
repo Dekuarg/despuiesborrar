@@ -7,7 +7,7 @@ import { DataTypes } from "sequelize";
         autoIncrement: true,
         primaryKey: true,
         allowNull:false},
-    nombre_producto: {type: DataTypes.INTEGER},
+    nombre_producto: {type: DataTypes.STRING},
     descripcion_producto: {type:DataTypes.STRING},
     precio: {type:DataTypes.INTEGER},
     fecha_registro: {type:DataTypes.DATE},
